@@ -10,13 +10,11 @@ export class EventosES6 extends Component{
             this.restar = this.restar.bind(this)
     }
     sumar(e) {
-        console.log("Sumando")
         this.setState({
             contador: this.state.contador + 1,
         })
     }
     restar(e) {
-        console.log("Restando")
         this.setState({
             contador: this.state.contador - 1,
         })
@@ -42,13 +40,11 @@ export class EventosES7 extends Component{
     }
 
     sumar = (e) => {
-        console.log("Sumando")
         this.setState({
             contador: this.state.contador + 1,
         })
     }
     restar = (e) => {
-        console.log("Restando")
         this.setState({
             contador: this.state.contador - 1,
         })
